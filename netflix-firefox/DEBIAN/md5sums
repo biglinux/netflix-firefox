@@ -1,0 +1,10 @@
+b234ee4d69f5fce4486a80fdaf4a4263  usr/share/netflix-firefox/LICENSE
+a0f630507fefaa011316b5830d855767  usr/share/netflix-firefox/Makefile
+29134e23608d9a9e0439a19b58a67bf3  usr/share/netflix-firefox/netflix.png
+cc21f5db85721b6abc01f1271da9c1a3  usr/share/netflix-firefox/README.md
+befaba9c5dfc845a248e0d0dc414e175  usr/share/netflix-firefox/xseticon
+584f21274c1c1e1272271c129c9ff450  usr/share/netflix-firefox/xseticon.c
+51d560335c72ac156283219a613877c0  usr/share/applications/netflix-firefox.desktop
+3b6cb2fc7d075c725311546e06871b56  usr/bin/netflix-firefox
+d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
+00e5585938fceca798024ec283b032ba  DEBIAN/control

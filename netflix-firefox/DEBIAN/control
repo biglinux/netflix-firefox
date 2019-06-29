@@ -1,0 +1,10 @@
+Package: netflix-firefox
+Version: 1.0.0-1big1
+Depends: firefox|firefox-esr, x11-utils
+Architecture: all
+Maintainer: Bruno Goncalves <www.biglinux.com.br>
+Section: admin
+Priority: optional
+Installed-Size:88
+Description: Open netflix in Firefox like a webapp
+
