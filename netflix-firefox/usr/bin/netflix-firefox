@@ -71,7 +71,7 @@ fi
 count=0
 while [  $count -lt 100 ]; do
     if [ "$(xwininfo -root -children -all | grep -iE "Navigator.*firefoxnetflixcom")" != "" ]; then
-        /usr/share/netflix-firefox/xseticon -id "$(xwininfo -root -children -all | grep -iE "Navigator.*firefoxnetflixcom" | awk '{print $1}')" /usr/share/netflix-firefox/netflix.png
+        /usr/share/netflix-firefox/xseticon -id "$(xwininfo -root -children -all | grep -iE "Navigator.*firefoxnetflixcom" | awk '{print $1}')" /usr/share/icons/hicolor/128x128/apps/netflix.png
         count=100
     else
         let count=count+1;

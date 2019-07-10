@@ -3,5 +3,5 @@ Exec=netflix-firefox
 Icon=netflix.png
 Name=Netflix
 Type=Application
-X-KDE-StartupNotify=false
-Keywords=movie;player;
+X-KDE-StartupNotify=true
+Keywords=
