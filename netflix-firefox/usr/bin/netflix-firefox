@@ -61,6 +61,8 @@ echo \
 "user_pref(\"browser.tabs.warnOnClose\", false);" \
 >> "$DIR"/user.js
 
+sed -i 's|user_pref("browser.urlbar.placeholderName.*||g' "$DIR"/prefs.js
+
 
 if [ "$(echo $LANG | grep pt)" = "" ]; then
     firefox --class=firefoxnetflixcom -profile "$DIR" -no-remote -new-instance "https://www.netflix.com/" &

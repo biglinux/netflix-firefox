@@ -3,8 +3,8 @@ a0f630507fefaa011316b5830d855767  usr/share/netflix-firefox/Makefile
 cc21f5db85721b6abc01f1271da9c1a3  usr/share/netflix-firefox/README.md
 befaba9c5dfc845a248e0d0dc414e175  usr/share/netflix-firefox/xseticon
 584f21274c1c1e1272271c129c9ff450  usr/share/netflix-firefox/xseticon.c
-7fc5365b7698235a0d3a10c77e586770  usr/share/applications/netflix-firefox.desktop
+5a44597fe6249824674684870ca03166  usr/share/applications/netflix-firefox.desktop
 29134e23608d9a9e0439a19b58a67bf3  usr/share/icons/hicolor/128x128/apps/netflix.png
-02a3c0f7a73db47838e6e491162411c6  usr/bin/netflix-firefox
+4103f98cd0c9cee39ee6ebdc3dd27dae  usr/bin/netflix-firefox
 d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
-ee98a40f840fb3ae9254dfec7116dd35  DEBIAN/control
+b1ada9eb643cad0c86e62a1489c58c82  DEBIAN/control
