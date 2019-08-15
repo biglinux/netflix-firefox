@@ -65,15 +65,15 @@ sed -i 's|user_pref("browser.urlbar.placeholderName.*||g' "$DIR"/prefs.js
 
 
 if [ "$(echo $LANG | grep pt)" = "" ]; then
-    firefox --class=firefoxnetflixcom -profile "$DIR" -no-remote -new-instance "https://www.netflix.com/" &
+    firefox --class=firefoxwebapp-netflix -profile "$DIR" -no-remote -new-instance "https://www.netflix.com/" &
 else
-    firefox --class=firefoxnetflixcom -profile "$DIR" -no-remote -new-instance "https://www.netflix.com/br" &
+    firefox --class=firefoxwebapp-netflix -profile "$DIR" -no-remote -new-instance "https://www.netflix.com/br" &
 fi
 
 count=0
 while [  $count -lt 100 ]; do
-    if [ "$(xwininfo -root -children -all | grep -iE "Navigator.*firefoxnetflixcom")" != "" ]; then
-        /usr/share/netflix-firefox/xseticon -id "$(xwininfo -root -children -all | grep -iE "Navigator.*firefoxnetflixcom" | awk '{print $1}')" /usr/share/icons/hicolor/128x128/apps/netflix.png
+    if [ "$(xwininfo -root -children -all | grep -iE "Navigator.*firefoxwebapp-netflix")" != "" ]; then
+        /usr/share/netflix-firefox/xseticon -id "$(xwininfo -root -children -all | grep -iE "Navigator.*firefoxwebapp-netflix" | awk '{print $1}')" /usr/share/icons/hicolor/128x128/apps/netflix.png
         count=100
     else
         let count=count+1;
