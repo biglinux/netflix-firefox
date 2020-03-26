@@ -1,10 +1,10 @@
+d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
+edbabcf6443b0f575f0ef6f72905608c  DEBIAN/control
+01a07aa0ce738f65bc276dbf79ee7fba  usr/bin/netflix-firefox
+5a44597fe6249824674684870ca03166  usr/share/applications/netflix-firefox.desktop
+29134e23608d9a9e0439a19b58a67bf3  usr/share/icons/hicolor/128x128/apps/netflix.png
 b234ee4d69f5fce4486a80fdaf4a4263  usr/share/netflix-firefox/LICENSE
 a0f630507fefaa011316b5830d855767  usr/share/netflix-firefox/Makefile
 cc21f5db85721b6abc01f1271da9c1a3  usr/share/netflix-firefox/README.md
 befaba9c5dfc845a248e0d0dc414e175  usr/share/netflix-firefox/xseticon
 584f21274c1c1e1272271c129c9ff450  usr/share/netflix-firefox/xseticon.c
-5a44597fe6249824674684870ca03166  usr/share/applications/netflix-firefox.desktop
-29134e23608d9a9e0439a19b58a67bf3  usr/share/icons/hicolor/128x128/apps/netflix.png
-4103f98cd0c9cee39ee6ebdc3dd27dae  usr/bin/netflix-firefox
-d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
-b1ada9eb643cad0c86e62a1489c58c82  DEBIAN/control
